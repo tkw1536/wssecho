@@ -1,5 +1,8 @@
 # wssecho
 
+
+![CI Status](https://github.com/tkw1536/wssecho/workflows/CI/badge.svg)
+
 A quick dummy websocket implementation that echoes and can be used for testing.
 
 Run it using:
