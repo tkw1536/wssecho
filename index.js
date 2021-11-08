@@ -14,7 +14,7 @@ var websocketSupported = "WebSocket" in window;
     }
 
     // connect to the websocket on the current host, using 'wss://' if on https, else 'ws://'
-    var websocketAddr = (location.protocol == "https" ? "wss://" : "ws://") + location.host + "/socket";
+    var websocketAddr = (location.protocol == "https:" ? "wss://" : "ws://") + location.host + "/socket";
     websocket = new WebSocket(websocketAddr);
 
     websocket.onopen = function() {
